@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Vaccine Check</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+</head>
+
+<body>
+  <form class="w3-row">
+    <div class="w3-col s6">
+<br><br>
+    <label class="w3-text-red"><b>Vaccine Check</b></label>
+    <!-- <input id="search" class="w3-input w3-border" type="text"> -->
+    <select class="w3-select" name="option" id="search">
+      <option value="" disabled selected>Choose your state</option>
+      <option value="PA">PA</option>
+      <option value="RI">RI</option>
+      <option value="MD">MD</option>
+    </select>
+    <button id="submit" class="w3-btn w3-red" value="search">search</button>
+  </div>
+  </form>
+  <div class="row">
+    <div calss="col-md-12"> 
+      <div class="w3-border-deep-purple" id="vac">
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
